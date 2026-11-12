@@ -15,7 +15,7 @@ import Layout from "../layouts/Layout.astro";
         <header class="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-7 lg:px-10">
             <a href="/" class="flex items-center gap-3">
                 <img
-                    src="/images/keycast-light.svg"
+                    src={`${import.meta.env.BASE_URL}images/keycast-light.svg`}
                     alt="KDE KeyCast"
                     class="h-10 w-10"
                 />
@@ -52,7 +52,7 @@ import Layout from "../layouts/Layout.astro";
             <div class="relative mb-9">
                 <div class="absolute inset-0 scale-150 rounded-full bg-blue-500/20 blur-3xl"></div>
                 <img
-                    src="/images/keycast-light.svg"
+                    src={`${import.meta.env.BASE_URL}images/keycast-light.svg`}
                     alt=""
                     class="relative h-28 w-28 drop-shadow-[0_0_35px_rgba(96,165,250,0.25)] sm:h-36 sm:w-36"
                 />
@@ -316,7 +316,7 @@ import Layout from "../layouts/Layout.astro";
                         </div>
 
                         <img
-                            src="/images/kde-keycast-demo-crop.gif"
+                            src={`${import.meta.env.BASE_URL}images/kde-keycast-demo-crop.gif`}
                             alt="Animated demonstration of KDE KeyCast displaying keyboard and mouse activity"
                             class="block h-auto w-full rounded-b-lg"
                             loading="lazy"
@@ -356,7 +356,7 @@ import Layout from "../layouts/Layout.astro";
 
                     <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-[#0d1424] p-2 shadow-2xl shadow-blue-950/40">
                         <img
-                            src="/images/kde-keycast.png"
+                            src={`${import.meta.env.BASE_URL}images/kde-keycast.png`}
                             alt="KDE KeyCast running on a KDE Plasma desktop"
                             class="block h-auto w-full rounded-xl"
                             loading="lazy"
@@ -694,7 +694,7 @@ import Layout from "../layouts/Layout.astro";
                     <div>
                         <a href="/" class="inline-flex items-center gap-3">
                             <img
-                                src="/images/keycast-light.svg"
+                                src={`${import.meta.env.BASE_URL}images/keycast-light.svg`}
                                 alt="KDE KeyCast"
                                 class="h-10 w-10"
                             />
